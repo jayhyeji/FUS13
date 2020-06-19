@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="ko-KR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>플랙스 박스</title>
+  <style>
+    .ediya-menu{
+      list-style: none;
+      padding-left: 0;
+      margin: 0 auto;
+      width: 100%;
+      background-color: yellow;
+      display: flex;
+      flex-wrap: wrap;
+    }
+    .item{
+      background-color: pink;
+      height: 50px;
+      width: 100%;
+      
+    }
+    @media screen and (min-width: 600px){
+      .item{width: 150px;}
+      
+
+      
+    @media screen and (min-width: 1000px){
+    .item{
+      width: 33.33%;
+    }
+      
+  </style>
+</head>
+<body>
+  <ul class="ediya-menu"></ul>
+  <li class="item">박스 1</li>
+  <li class="item">박스 2</li>
+  <li class="item">박스 3</li>
+  <li class="item">박스 4</li>
+  <li class="item">박스 5</li>
+  <li class="item">박스 6</li>
+</body>
+</html> 
